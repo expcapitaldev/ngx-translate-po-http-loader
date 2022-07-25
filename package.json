@@ -1,6 +1,6 @@
 {
   "name": "@tobyodonnell-aiau/ngx-translate-po-http-loader",
-  "version": "3.1.11",
+  "version": "3.1.12",
   "description": "Load po files for use with ngx-translate",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -10,9 +10,6 @@
     "clean": "rm -rf ./dist",
     "lint": "tslint --force '*.ts'"
   },
-  "files": [
-    "dist/"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TobyODonnell-AIAU/ngx-translate-po-http-loader.git"
