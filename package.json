@@ -1,6 +1,6 @@
 {
   "name": "@tobyodonnell-aiau/ngx-translate-po-http-loader",
-  "version": "3.1.7",
+  "version": "3.1.8",
   "description": "Load po files for use with ngx-translate",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/TobyODonnell-AIAU/ngx-translate-po-http-loader.git"
+    "url": "git+https://github.com/TobyODonnell-AIAU/ngx-translate-po-http-loader.git"
   },
   "keywords": [],
   "author": "Noël Rignon <noel.rignon@fjnr.ca>",
@@ -31,7 +31,7 @@
   "peerDependencies": {
     "@angular/core": "^14.0.0",
     "@angular/common": "^14.0.0",
-    "@ngx-translate/core": "^10.0.0"
+    "@ngx-translate/core": "^14.0.0"
   },
   "dependencies": {
     "gettext-parser": "^4.0.3"
@@ -40,7 +40,7 @@
     "@angular/common": "^14.0.0",
     "@angular/core": "^14.0.0",
     "@angular/platform-browser": "^14.0.0",
-    "@ngx-translate/core": "12.1.2",
+    "@ngx-translate/core": "14.0.0",
     "rxjs": "^6.0.0",
     "tslint": "6.1.2",
     "tslint-eslint-rules": "5.4.0",
@@ -48,6 +48,7 @@
     "zone.js": "^0.11.4"
   },
   "publishConfig": {
-    "@tobyodonnell-aiau:registry": "https://registry.npmjs.org/"
+    "@TobyODonnell-AIAU:registry": "https://npm.pkg.github.com",
+    "legacy-peer-deps": "true"
   }
 }
